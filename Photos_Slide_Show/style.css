@@ -1,0 +1,50 @@
+.image{
+    position:relative;
+    top:30px;
+    background-color:rgba(0,0,0,1);
+  }
+  .count{
+    position:absolute;
+    top:20px;
+    left:20px;
+    color:white;
+  }
+  .caption{
+    position:absolute;
+    bottom:10px;
+    text-align: center;
+     color:red;
+    display:inline-block;
+    left:45%;
+    background-color: antiquewhite;
+  }
+  .main{
+    display:block;
+    position:relative;
+  }
+  .prev{
+    position:absolute;
+    top:50%;
+    width:auto;
+    display: inline;
+    font-size: 20px;
+    padding:16px;
+    font-weight: bold;
+    left:10px;
+    color:white;
+  }
+  .next{
+    position:absolute;
+    top:50%;
+    width:auto;
+    display: inline;
+    font-size: 20px;
+    padding:16px;
+    font-weight: bold;
+    right:10px;
+    color:white;
+  }
+  .prev:hover,.next:hover{
+    background-color:black;
+    cursor:pointer;
+  }
